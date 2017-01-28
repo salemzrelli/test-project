@@ -8,10 +8,10 @@ use Symfony\Component\HttpFoundation\Request;
 
 class DefaultController extends Controller
 {
-    /**
-     * @Route("/", name="homepage")
+     /**
+     * @Route("/souscritoo", name="souscritoo")
      */
-    public function indexAction(Request $request)
+    public function sousAction(Request $request)
     {
         // replace this example code with whatever you need
         return $this->render('default/index.html.twig', [
